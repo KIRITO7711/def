@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="untitled-1.css" />
+    <title>HTML</title>
+    <script src="https://kit.fontawesome.com/bf161049a1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-light navbar-expand-xl bg-white shadow sticky-top">
+       <div class="container-lg">
+           <a href="https://www.google.com/?hl=fr" title="DEF" rel="home">
+               <svg width="131.364" height="40">
+                   <path d="M2,0H72.737a2,2,0,0,1,2,2V38a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z" fill="#A6ACAF"></path>
+                   <path d="M 5 3 C 16 4 22 7 23 17 C 22 28 16 31 5 32 L 5 32 Z M 10 26 a 1 1 0 0 0 0 -17 Z M 29 3 L 29 32 H 35 V 3 Z M 29 3 V 6 H 44 V 3 Z M 35 15 H 44 V 18 H 35 Z M 29 29 V 32 H 44 V 29 Z M 52 3 L 52 32 H 58 V 3 Z M 58 3 L 69 3 V 6 H 58 Z M 58 15 L 69 15 V 18 H 58 Z" fill="#154360"></path>
+               </svg>
+           </a>
+
+         <div class="navbar-collapse collapse" id="menu">
+           <ul class="navbar-nav align-items-start align-items-xl-center mt-2 mt-x1 m1-auto">
+               <li class="nav-item">
+                   <a class="nav-link text-nowrap" href="https://www.google.com/?hl=fr" title="retourne a google.com">google</a>
+               </li>
+               <li class="nav-item">
+                   <button class="login-btn nav-link text-nowrap">Log In</button>
+               </li>
+           </ul>   
+        </div>
+       </div>
+    </nav>
+   <div class="container-lg mt-3">
+       <div class="row py-2 py-sm-4">
+           <div class="class="col-lg-8 pr-lg-5">
+            <article class="page-content">
+                <h1 class="h1 mb-4">
+                    definition de : <dfn>HTML</dfn> 
+                </h1>
+            <div class="bg-light rounded-lg p-3 p-md-4 summary mb-4">
+                <h3 class="h4 font-weight-semibold text-secondary mb-2">Sommaire</h3>
+                <ul id="summary-list" class="mb-0 list-unstyled line-height-sm">
+                    <li class="mt-1">
+                        <a class="h6 text-dark font-weight-semibold" href="#def">
+                            <i class="fas fa-angle-double-right"></i>
+                            Qu'est-ce que l'HTML ?
+                        </a>
+                    </li>
+                    <li class="mt-1">
+                        <a class="h6 text-dark font-weight-semibold" href="#element">
+                            <i class="fas fa-angle-double-right" aria-hidden="true"></i>
+                            Eléments du language HTML
+                        </a>
+                    </li>
+                    <li class="mt-1">
+                        <a class="h6 text-dark font-weight-semibold" href="#footer">
+                            <i class="fas fa-angle-double-right" aria-hidden="true"></i>
+                            Footer
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="post-content">
+                <p>Dans ce blog je vais faire une presentation a l'HTML (HyperText markup), le definir et citer quelque elements de ce language.</p>
+                <h2 id="def">Qu'est-ce que l'<em>HTML</em>?</h2>
+                <p>Le HyperText Markup Language, généralement abrégé HTML ou, dans sa dernière version, HTML5, est le langage de balisage conçu pour représenter les pages web.</p>
+                <p>ce language permet :</p>
+                <ul>
+                    <li>d'écrire de l'hypertexte, d'ou son nom</li>
+                    <li>de structurer sémantiquement la page</li>
+                    <li>de mettre en forme le contenu</li>
+                    <li>de créer de formulaires de saisie</li>
+                    <li>d’inclure des ressources multimédias dont des images, des vidéos, et des programmes informatiques</li>
+                    <li>de créer des documents interopérables avec des équipements très variés de manière conforme aux exigences de l’accessibilité du web.</li>
+                </ul>
+                <p>Il est souvent utilisé conjointement avec le langage de programmation JavaScript et des feuilles de style en cascade (CSS). HTML est inspiré du Standard Generalized Markup Language (SGML). Il s'agit d'un format ouvert.</p>
+                <h2 id="element">Eléments du language <em>HTML</em>:</h2>
+                <p>La version 4 de HTML décrit 91 éléments. En suivant la spécification de HTML 4, les fonctionnalités implémentées par HTML peuvent être réparties ainsi :</p>
+                <dl>
+                    <dt>Structure générale d’un document HTML</dt>
+                    <dd>Au plus haut niveau, un document HTML est séparé entre un en-tête et un corps. L’en-tête contient les informations sur le document, notamment son titre et éventuellement des métadonnées. Le corps contient ce qui est affiché.</dd>
+                </dl>
+                <dl>
+                    <dt>Informations sur la langue</dt>
+                    <dd>Il est possible d’indiquer la langue de n’importe quelle partie du document et de gérer le mélange de texte s’écrivant de gauche à droite avec du texte de droite à gauche.</dd>
+                </dl>
+                <dl>
+                    <dt>Marquage sémantique</dt>
+                    <dd>HTML permet de différencier des contenus spécifiques tels que les citations d’œuvres externes, les extraits de code informatique, les passages en emphase et les abréviations. Certains de ces éléments, conçus initialement pour permettre le support de documentations techniques, sont très rarement employés (différenciation entre les éléments de variable et d’exemple de valeur dans un code informatique, par exemple, ou encore instance d’un terme défini dans le contexte).</dd>
+                </dl>
+                <dl>
+                    <dt>Listes</dt>
+                    <dd>HTML différencie des listes non ordonnées et des listes ordonnées, selon que l’ordre formel du contenu dans le code est en soi ou non une information. Des listes de définition existent également, mais sans que leur champ d’application ne soit exactement déterminé.</dd>
+                </dl>
+                <dl>
+                    <dt>Tables</dt>
+                    <dd>Cette fonctionnalité sert formellement à la présentation de données tabulaires, mais a été surtout exploitée pour ses capacités de mise en page avant que les feuilles de style en cascade (CSS) atteignent un degré de maturité suffisant</dd>
+                </dl>
+                <dl>
+                    <dt>Hyperliens</dt>
+                    <dd>La fonctionnalité première de HTML.</dd>
+                </dl>
+                <dl>
+                    <dt>Inclusion d’images, d’applets et d’objets divers</dt>
+                    <dd>À l’origine HTML permettait seulement de donner des hyperliens sur les médias externes. L’invention d’éléments spécialisés pour le multimédia a permis l’inclusion automatique d’image, de musique, de vidéo, etc. dans les pages web.</dd>
+                </dl>
+                <dl>
+                    <dt>Éléments de regroupement</dt>
+                    <dd>Ne conférant pas de signification au contenu qu’ils balisent, ces éléments génériques permettent d’appliquer des styles de présentation, de réaliser des traitements via des scripts ou tout autre opération nécessitant d’isoler une partie du contenu.</dd>
+                </dl>
+                <dl>
+                    <dt>Style de la présentation</dt>
+                    <dd>Chaque élément, voire tout le document, peut se voir appliquer des styles. Les styles sont définis dans le document ou proviennent de feuilles de style en cascade (CSS) externes.</dd>
+                </dl>
+                <dl>
+                    <dt>Marquage de présentation du texte</dt>
+                    <dd>Développé avant la généralisation de CSS pour fournir rapidement des fonctionnalités aux graphistes. D’usage désormais officiellement déconseillé pour la plus grande partie.</dd>
+                </dl>
+                <dl>
+                    <dt>Cadres</dt>
+                    <dd>Aussi connu sous le nom de frames, une fonctionnalité souvent décriée qui permet d’afficher plusieurs documents HTML dans une même fenêtre.</dd>
+                </dl>
+                <dl>
+                    <dt>Formulaire pour l’insertion interactive de données</dt>
+                    <dd>Les éléments de formulaire permettent aux visiteurs d'entrer du texte et des fichiers dans les pages Web.</dd>
+                </dl>
+                <dl>
+                    <dt>Scripts</dt>
+                    <dd>Permet d’associer des morceaux de programmes aux actions des utilisateurs sur le document. Les langages utilisés sont généralement JavaScript et VBScript.</dd>
+                </dl>
+            </div>
+            </article>
+        </div>
+       </div>
+   </div>
+   <footer id="footer">
+       <div class="prefooter">
+           <div class="container-lg">
+               <div class="row-1 align-item-center col">
+                   <svg width="75" height="40">
+                    <path d="M2,0H72.737a2,2,0,0,1,2,2V38a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z " fill="#A6ACAF" ></path>
+                    <path d="M 5 3 C 16 4 22 7 23 17 C 22 28 16 31 5 32 L 5 32 Z M 10 26 a 1 1 0 0 0 0 -17 Z M 29 3 L 29 32 H 35 V 3 Z M 29 3 V 6 H 44 V 3 Z M 35 15 H 44 V 18 H 35 Z M 29 29 V 32 H 44 V 29 Z M 52 3 L 52 32 H 58 V 3 Z M 58 3 L 69 3 V 6 H 58 Z M 58 15 L 69 15 V 18 H 58 Z" fill="#154360"></path>
+                   </svg>
+                   <p class="com">cette page est juste un devoir pour mon prof<br>don't take it serious! </p>
+               </div>
+           </div>
+       </div>
+       <div class="text-white py-4">
+           <div class="container-lg">
+            <svg width="75" height="40">
+                <path d="M2,0H72.737a2,2,0,0,1,2,2V38a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z " fill="#A6ACAF"></path>
+                <path d="M 5 3 C 16 4 22 7 23 17 C 22 28 16 31 5 32 L 5 32 Z M 10 26 a 1 1 0 0 0 0 -17 Z M 29 3 L 29 32 H 35 V 3 Z M 29 3 V 6 H 44 V 3 Z M 35 15 H 44 V 18 H 35 Z M 29 29 V 32 H 44 V 29 Z M 52 3 L 52 32 H 58 V 3 Z M 58 3 L 69 3 V 6 H 58 Z M 58 15 L 69 15 V 18 H 58 Z" fill="#154360"></path>
+            </svg> 
+            <div class="row mt-3">
+                <div class="col-xl-3 mb-4 mb-xl-0">
+                    <p class="mb-0">
+                        this page was made just for a homework don't take it seious<br>
+                        
+                        
+                    </p>
+                </div>
+                <div class="col-xl-9">
+                    <div class="row">
+                        <ul class="col-sm-6 col-lg-2 list-unstyled mb-3 mb-lg-0">
+                            <li>
+                                <i class="fas fa-angle-double-right"></i>
+                                <a href="" >contact us</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-angle-double-right"></i>
+                                <a href="">about us</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-angle-double-right"></i>
+                                <a href="">other subjects</a>
+                            </li>
+                        </ul>
+                        <ul class="col-sm-6 col-lg-2 list-unstyled mb-3 mb-lg-0">
+                            <li>
+                                <i class="fas fa-angle-double-right"></i>
+                                <a href="">conditions générale</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-angle-double-right"></i>
+                                <a href="">social media</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-angle-double-right"></i>
+                                <a href="">politique de confidentialité</a>
+                            </li>
+                        </ul>
+                        <ul class="col-sm-6 col-lg-2 list-unstyled mb-3 mb-lg-0">
+                            <li class="mb-2">
+                                <i class="fas fa-angle-double-right"></i>
+                                code apogée: 20020046</li>
+                            <li class="mb-2">
+                                <a href="mhyounes111@gmail.com" class="d-inline-block rounded-pill bg-light-grey text-dark px-2">
+                                    <span class="text-dark">
+                                        <i class="far fa-envelope"></i>
+                                    </span>
+                                    <span class="font-weight">example@gmail.com</span>
+                                </a>
+                            </li> 
+                            <li class="mb-2">
+                                <a href="0688168447" class="d-inline-block rounded-pill bg-light-grey text-dark px-2">
+                                    <span class="text-dark">
+                                        <i class="fa fa-phone-alt"></i>
+                                    </span>
+                                    <span class="font-weight">066666666</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-4">
+                <ul class="col-sm-6 list-inline mb-0 text-left text-lg-right pr-lg-5">
+                    <li class="list-inline-item mx-1">
+                        <a href="https://web.facebook.com/" class="text-secondary">
+                            <i class="fab fa-facebook-square fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item mx-1">
+                        <a href="https://www.youtube.com/">
+                            <i class="fab fa-youtube fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item mx-1">
+                        <a href="https://twitter.com/?lang=fr">
+                            <i class="fab fa-twitter-square fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item mx-1">
+                        <a href="https://www.instagram.com/?hl=fr">
+                            <i class="fab fa-instagram-square fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="text-lg-center mb-4">
+                <p>sources: wikepidia</p>
+            </div>
+           </div>
+       </div>
+   </footer>
+   <div class="modal">
+       <div class="modal-box">
+           <div class="modal-body">
+               <h3>Log In</h3>
+               <form>
+                   <div class="form-control">
+                       <label for="email">Email</label>
+                       <input type="email" id="email">
+                   </div>
+                   <div class="form-control">
+                    <label for="password">Password</label>
+                    <input type="password" id="password">
+                </div>
+                <p><a href="#">forgot your password</a></p>
+                <button class="btn btn-dark">Log In</button>
+               </form>
+           </div>
+           <div class="modal-footer">
+               <p>no account? <a href="#">make your account now</a></p>
+           </div>
+           <img src="close.svg" class="close">
+       </div>
+   </div>
+   <script src="Untitled-1.js"></script>
+   
+</body>
+</html>
